@@ -1,0 +1,149 @@
+<?php
+header("Content-Type: text/html; charset=UTF-8");
+?><!doctype html>
+
+
+<meta charset="UTF-8/>
+
+3-1
+md_strlen counts multi bit char as 1
+
+strlen gives string length
+
+substr(striing,position,length(OPTIONal))
+position- starts with 0
+legth starts with 1
+
+strpos(string, char) returns the position of a character
+
+str_replace(search,replace,complete-string)
+str_irreplace works with case sensitive letters too
+explode("separator",string)
+implode combines the string with separator provided
+
+strtolower strtoupper
+var_dump all details
+print_r human readable
+
+count(array) gives number of elements
+3-2
+
+Converting a variable
+settype($....,"boolean")
+
+$.....=(boolean/bool)$''''';
+
+$''''=if($....)
+
+Array_pop remove last
+array_shift first
+unset for associative array
+
+echo array(position)
+
+
+4-1
+
+strlen($.....)
+$....=trim($....)
+
+JSON
+$...=json_encode($my_array)
+##json_decode to reverse it
+
+2 ways
+new DateTime("now")
+date_create("now")
+
+$myDateTime->format("Y-m-d H:i:s")
+
+=> key in an array
+
+$mytimestamp=strtotime("2021...)
+
+Echo checkdate(2,29,2000)   will return true if date is good. 31 feb vli dikkat nhi hoti.
+
+getdate() gives an array
+
+echo date("y/m/d"); gives a string 
+
+$difference=$startDateTime->diff($endDateTime);
+starttime
+for....
+endtime
+diff=
+echo $diff->format%s.%f to loop
+
+
+4-2
+
+If we need "" inside our string then we should use backslash 
+with the double quotes or enclose the string in single quotes.
+
+GIT
+teams-git-initialize repository
+revert to reverse the version
+
+
+
+5-1
+
+Round($nhjj+$ji) returns a rounded integer with upto 2 decimal places
+
+We can get a value of variable inside a function by using & with the parameter
+
+We can use an optional variable if we use a default value with a parameter
+
+To access a global variable inside a function declare it inside with keyword global.
+
+Include is used to import functions from other file
+or include_once(continues even if thers an error)
+
+or require or require_once(recommended)
+
+we can switch bw php and htm by closing php before starting html and starting it again
+
+
+6-1
+
+shuffle($array)
+call any index and will show object from different indexes everytime
+
+for()
+{
+echo "<li>";
+echo $array[ondex]
+echo "</li>"
+}
+
+
+6-2
+
+GET: not safe it shows in browser
+post: safe for confidential infos
+
+$_POST array
+$_GET
+$_REQUEST are super globall variables which can be accesed by the key name
+
+7-2
+Create avariable to handle error for an entry
+like $eerorMake
+
+use <span> to display error right next to input
+
+$_GET gets the input
+can be accesed by [""]
+
+8-1 
+
+ERROR_HANDLER RETURNS DATA IN SEQUENCE $errorNumber, $errorMessage,$errorFile,$errorLine
+EXCEPTION HANDLER THROWS AN OBJECT
+
+
+8-2
+FOR PAGE CACHING ADD
+MUST BE BEFORE HTML BEGINING
+header('Expires: Fri, 15 Sep 2000 16:00:00 GMT');
+    header('Cache-Control: no-cache');
+    header('Pragma: no-cache');

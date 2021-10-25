@@ -1,0 +1,6 @@
+{"pCode":"P435","firstName":"Anushka","lastName":"Sharma","city":"Karnal","comment":"Hey","price":"70.55","quantity":"5","subtotal":352.75,"taxes":43.21,"grandTotal":395.96}
+{"pCode":"P44","firstName":"ABHISHEK","lastName":"DHINGRA","city":"KARNAL","comment":"HOLA! Montr\u00e9al.","price":"70","quantity":"20","subtotal":1400,"taxes":171.5,"grandTotal":1571.5}
+{"pCode":"P450","firstName":"ABHI","lastName":"DHINGRA","city":"MONTREAL","comment":"BONJOUR","price":"3","quantity":"5","subtotal":15,"taxes":1.84,"grandTotal":16.84}
+{"pCode":"PHEY","firstName":"PEOPLE","lastName":"HOLA","city":"CAAA","comment":"","price":"25.8","quantity":"3","subtotal":77.4,"taxes":9.48,"grandTotal":86.88}{"pCode":"p33","firstName":"abhishek","lastName":"dhingra","city":"karnal","comment":"","price":"100","quantity":"80","subtotal":8000,"taxes":980,"grandTotal":8980}
+{"pCode":"P345","firstName":"ABHI","lastName":"ABHI","city":"KNL","comment":"","price":"345","quantity":"20","subtotal":6900,"taxes":845.25,"grandTotal":7745.25}
+{"pCode":"P09876","firstName":"PARI","lastName":"RAWAL","city":"PANIPAT","comment":"KRDFHVGKLXJFLFJ","price":"90","quantity":"20","subtotal":1800,"taxes":220.5,"grandTotal":2020.5}

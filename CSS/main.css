@@ -1,0 +1,290 @@
+/*
+7-3-2021 CREATED CSS
+10-3-2021 FINALIZING CSS
+*/
+
+.body {
+    background-image: url("../images/back.jpg");
+    background-size: cover;
+    background-attachment:fixed;
+}
+.bodyPrint{
+    background-color: white;
+}
+.topnav {
+    margin-top:0px;
+    height: 72px;
+    
+    color: white;
+    width:100%;
+    padding-right:40px;
+    padding-left: 75%;
+    position: relative;
+    
+}
+
+    .topnav a {
+        
+        opacity: 1.0;
+        display: block;
+        float: left;
+        border-radius: 12px;
+        color: rgb(238,232,170);
+        text-align: center;
+        padding: 23px 26px;
+        text-decoration: none;
+        font-size: 20px;
+        opacity: 1;
+        font-weight: bold;
+        -webkit-transition: all 0.2s ease;
+        -moz-transition: all 0.2s ease;
+        -ms-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+    }
+    
+    .topnav a:hover 
+    {
+            color: rgb(238,232,170);
+            font-size: 23px;
+            border-radius: 13px;
+            background-color: rgba(0,0,0,.5);
+    }
+    .topnav a:active,a:visited {
+        border: 3px solid rgba(0,0,0,.2);
+        background-color: rgba(0,0,0,.5);
+    }
+
+    .grand {
+    position: absolute;
+    overflow: hidden;
+    left: 30px;
+    
+}
+    .grand img {
+        
+        border-radius: 9px;
+        height: 220px;
+        width: 400px;
+        margin-top: 3%;
+        box-shadow: 3px 7px 9px 2px rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.79);
+        -webkit-transition: all 0.2s ease;
+        -moz-transition: all 0.2s ease;
+        -ms-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+    }
+    .grand img:hover{
+        height:210px;
+        width:420px;
+    }
+    
+    .main {
+    margin-top:10%;
+    text-align:center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgba(0,0,0,.2);
+    border-radius: 9px;
+    height: 90%;
+    width: 80%;
+    margin-left: 12%;
+   color: rgb(238,232,170);
+    background-color: rgba(0,0,0,.5);
+    
+}
+.icon {
+            
+            margin-top: 35px;
+            height: 150px;
+            width: 180px;
+            display: inline-block;
+            text-align: center;
+            border-style: solid;
+            border-width: 3px;
+            border-color: rgba(0,0,0,.2);
+            border-radius: 9px;
+            background-color: rgba(0,0,0,.5);
+            color: rgb(238,232,170);
+            -webkit-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            -ms-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+            font-size:18px;
+        }
+        .icon:hover{
+            margin-top:45px;
+            height:178px;
+            width:208px;
+            font-size:21px;
+        }
+
+            .icon img {
+                height: 140px;
+                width: 160px;
+                
+            }
+            
+ .adbox {
+    margin-top: 10%;
+    text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgba(0,0,0,.2);
+    border-radius: 9px;
+    margin-left: 10%;
+    height: 40%;
+    align-self: center;
+    background-color: rgba(0,0,0,.5);
+    display:inline;
+    
+    width:38%;
+    
+    margin-right:30%; 
+    padding-top:0;
+    padding-bottom:0;
+    float: right;
+    color:rgb(240,230,140);
+}
+.ad{
+    height:60%; 
+    width:60%;
+}
+.specialAd
+{
+    height:90%; 
+    width:90%;
+    border: 5px solid;
+    border-color: red;
+    
+}
+
+
+
+ .cheat a{
+    
+     background-color: rgba(0,0,0,.4);
+        opacity: 1.0;
+        display: block;
+        float: left;
+        margin-left: 40%;
+        margin-top: 2%;
+        color: rgb(238,232,170);
+        text-align: center;
+        padding: 23px 26px;
+        text-decoration: none;
+        font-size: 20px;
+        opacity: 1;
+        font-weight: bold;
+        -webkit-transition: all 0.2s ease;
+        -moz-transition: all 0.2s ease;
+        -ms-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+        text-decoration: none;
+    }
+    
+    .cheat a:hover 
+    {
+            color: rgb(238,232,170);
+            font-size: 23px;
+            border-radius: 13px;
+            background-color: rgba(0,0,0,.5);
+            text-decoration: none;
+    }
+    cheat a:visited,a:active,a:link{
+        background-color: rgba(0,0,0,.4);
+    color: rgb(238,232,170);
+    text-decoration: none;
+    
+    }
+   
+
+    
+    .copyright{
+        
+    height:50%;
+    margin-top: 100%;
+    bottom:0;
+    background-color: rgba(0,0,0,.7);
+    text-align:center;
+    color:antiquewhite
+}
+    .copyright img {
+        height: 30px;
+        padding: 25px;
+        width: 30px;
+        -webkit-transition: all 0.2s ease;
+        -moz-transition: all 0.2s ease;
+        -ms-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+    }
+    .copyright img:hover{
+        height:40px;
+        width:40px;
+    }
+.golden{
+    color: rgb(238,232,170);
+    align-self: center;
+}
+.form 
+{
+            margin-top: 4%;
+            border-style: solid;
+            border-width: 3px;
+            border-color: rgba(0,0,0,.2);
+            border-radius: 9px;
+            margin-left: 38%;
+            width: 47%;
+            background-color: rgba(0,0,0,.5);
+            float: left;
+}
+.label {
+            color: aliceblue;
+            font-weight: 200;
+        }
+.input {
+            width: 40%;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .save{
+            margin-left: 10%;
+            width: 20%;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            background-color: red;
+            border-radius:10px;
+            color:white;
+            
+        }
+        .save:hover{
+            width:22%;
+            
+        }
+        
+        table{
+            margin-left: 15%;
+            border-radius: 12px;
+        }
+        .bigTD{
+            width:200px
+        }
+table,th,td{
+         margin-top: 15%;
+         border: solid; 
+         border-color: rgb(238,232,170);
+         color:black;
+         background-color: white;
+         
+        }
+        .red{
+            color: red;
+        }
+        .orange{
+            color: orange;
+        }
+        .green{
+            color: green;
+        }
